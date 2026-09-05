@@ -1,0 +1,6 @@
+fastmcp>=2.0.0
+uvicorn>=0.30.0
+sxtwl>=2.0.0
+# Optional pure-Python fallback for lunar conversion if sxtwl (C extension)
+# cannot be built on your platform:
+# lunardate>=0.2.0
