@@ -37,7 +37,11 @@ Add this to your MCP client's `mcpServers` configuration (Claude Desktop `claude
 ## 🧰 Tools
 
 | Tool | Parameters | Returns |
-|---|---|---|
+|
+
+[![calendar-mcp MCP server](https://glama.ai/mcp/servers/boy-373/calendar-mcp/badges/score.svg)](https://glama.ai/mcp/servers/boy-373/calendar-mcp)
+
+---|---|---|
 | `query_holiday(date)` | `date`: solar date `YYYY-MM-DD`, e.g. `"2026-10-01"`. | Weekday, holiday name (if any), day type — public holiday off-day / makeup workday / normal workday / weekend — plus the lunar date for that day. |
 | `solar_to_lunar(year, month, day)` | `year`/`month`/`day`: solar date integers. | Lunar year/month/day, leap-month flag, lunar date string (Chinese), zodiac animal, and year/month/day ganzhi (干支). |
 | `list_holidays(year)` | `year`: integer year, e.g. `2026`. | All statutory holidays of the year: name, off-day count, date ranges, exact off dates and makeup-workday dates. |
